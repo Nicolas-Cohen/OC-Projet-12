@@ -384,7 +384,7 @@ hr {
 /* START CONTACT */
 .tm-contact {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 .form-control {
@@ -404,6 +404,14 @@ hr {
 }
 input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
+
+.icon-email {
+  width: 300px;
+}
+
+.mailto {
+  margin-bottom: 40px;
+}
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){
