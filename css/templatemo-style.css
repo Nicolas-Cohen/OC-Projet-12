@@ -320,6 +320,11 @@ hr {
   float: right;
   padding-right: 80px;
 }
+
+.competences {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
 /* END RESUME */
 
 /* START ABOUT */
@@ -406,12 +411,33 @@ input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
 
 .icon-email {
-  width: 300px;
+  width: 250px;
 }
 
-.mailto {
+.email-icon {
   margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
 }
+
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.email-icon img {
+  animation: blink 1.5s ease-in-out infinite;
+}
+
+
+
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){
@@ -420,8 +446,8 @@ input { height: 50px; }
   }
 }
 
-/* START MEDIA 980 */
-@media screen and (max-width:980px){
+/* START MEDIA 1024 */
+@media screen and (max-width:1024px){
   .portfolio-overlay  { padding-top: 10px; }
 }
 /* END MEDIA 980 */
