@@ -77,6 +77,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
+
+.NC-icon {
+  width: 60px;
+}
 /* END NAVIGATION */
 
 /* START HOME */
