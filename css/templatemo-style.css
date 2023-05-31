@@ -484,14 +484,14 @@ input {
 /* START MEDIA 1024 */
 @media screen and (max-width: 1024px) {
   .portfolio-item-title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .portfolio-overlay {
     padding-top: 10px;
     opacity: 1;
     background: none;
-    font-size: 20px;
+    font-size: 14px;
   }
   .fluid-img {
     filter: brightness(50%);
@@ -510,11 +510,11 @@ input {
   }
 
   .skills {
-    margin-top: 100px;
+    margin-top: 90px;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
